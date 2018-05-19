@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_antique"
+            android:icon="@drawable/ic_local_see"
+            android:title="@string/antique" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/restaurant" />
+        <item
+            android:id="@+id/nav_nature"
+            android:icon="@drawable/ic_nature"
+            android:title="@string/nature" />
+        <item
+            android:id="@+id/nav_museums"
+            android:icon="@drawable/ic_museum"
+            android:title="@string/museum" />
+    </group>
+</menu>

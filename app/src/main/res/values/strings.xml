@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TourGuideNav</string>
+    <string name="antique">Antique</string>
+    <string name="nature">Nature</string>
+    <string name="museum">Museum</string>
+    <string name="attraction">Attraction</string>
+    <string name="description">Description of the location. It\'s a short text containing a few
+        sentences. Just like this.</string>
+    <string name="restaurant">Restaurant</string>
+</resources>
