@@ -22,20 +22,23 @@ public class RestaurantsFragment extends Fragment {
 
         // Create an ArrayList and add newly created Location objects
         ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
-        locations.add(new Location(R.string.attraction, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+        locations.add(new Location(R.string.restaurant, R.string.description));
+
 
 
         // Create a LocationAdapter, with the foregoing ArrayList as data source. Connect adapter with listView

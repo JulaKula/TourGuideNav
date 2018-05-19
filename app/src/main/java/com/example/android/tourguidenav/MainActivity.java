@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             case R.id.nav_antique:
                                 getSupportFragmentManager().beginTransaction().replace(R.id.list_layout,
-                                        new RestaurantsFragment()).commit();
+                                        new AntiqueFragment()).commit();
                                 break;
                             case R.id.nav_nature:
                                 getSupportFragmentManager().beginTransaction().replace(R.id.list_layout,
